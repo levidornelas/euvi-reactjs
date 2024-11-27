@@ -1,7 +1,7 @@
 // Captura o item pelo ID.
 export const fetchItemDetails = async (id) => {
   try {
-    const response = await fetch('http://192.168.0.102:8000/api/media-items/');
+    const response = await fetch('http://:8000/api/media-items/');
     if (!response.ok) {
       throw new Error('Erro ao buscar dados');
     }
